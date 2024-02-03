@@ -10,5 +10,5 @@ kafka-topics --create --if-not-exists --bootstrap-server kafka:9092 --partitions
 kafka-topics --create --if-not-exists --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1 --topic events
 
 # Start Kafka
-#exec /etc/confluent/docker/run
+exec /etc/confluent/docker/run
 
